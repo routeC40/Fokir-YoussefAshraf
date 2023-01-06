@@ -1,0 +1,168 @@
+@media screen and (max-width:797px) {
+    /* HEADER SECTION START */
+    .section-title h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    .header .nav-bar {
+        display: none;
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+    .header  .nav-icon{
+        display: block;
+    }
+    
+    .header .nav-bar ul li{
+        float: none;
+    }
+    .header .nav-icon:hover +  .nav-bar  {
+        display: block;
+    }
+    .header .nav-bar ul li a{
+        padding: 18px 10px;
+        font-size: 13px;
+        text-align: center;
+        background-color: #333;
+        font-weight:300;
+        color: #fff;
+    } 
+    .slider .slider-text{
+        left: calc(50% - 109px);
+        top: calc(50% - 67px);
+    }
+    .slider .slider-text h1{
+        font-size: 38px;
+    }
+    .slider .slider-text h3{
+        font-size: 22px;
+    }
+    .slider .slider-text h4{
+        font-size: 18px;
+    }
+    /* HEADER SECTION END */
+/* ABOUT SECTION START */
+.about-area{
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.about-area .about-content{
+    width: 100%;
+    float: none;
+    }
+.about-area .about-img{
+    width: 100%;
+    margin: 0px auto;
+    float: none;
+}
+.about-area .about-img .image{
+    width: 100%;
+    padding:0px ;
+
+}
+
+
+.about-area .about-img .image::before{
+display: none;
+}
+
+
+.about-area .about-content h2{
+
+    margin: 20px 0px 10px;
+}
+.about-area .about-content p{
+    font-size: 18px;
+    padding-bottom: 30px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #555555;
+    border-bottom: 1px dashed #999999;
+}
+.about-area .about-content ul li {
+    float: none;
+}
+
+
+.about-area .about-content ul .left-list,
+.about-area .about-content ul .right-list {
+width: 100%;
+}
+.about-area .about-content button{
+    margin-bottom: 10px;
+    }
+/* ABOUT SECTION END */
+
+/* SERVICE SECTION START */
+.services .service-boxes .box{
+    width: 80%;
+    margin: 0 10%;
+    padding:40px 5%;
+    text-align: center;
+    transition: 1s;
+    float: left;
+}
+/* SERVICE SECTION END */
+
+
+/* PORTFOLIO SECTION START */
+.portfolio .portfolio-titles h5 a{
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 8px;
+    color: #333;
+}
+.portfolio .portfolio-boxes .box{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    float: none;
+}
+/* PORTFOLIO SECTION END */
+/* FACTS SECTION START */
+.facts .facts-boxes .box{
+    width: 80%;
+    margin: 0px auto 15px;
+    float: none;
+}
+/* FACTS SECTION END */
+
+/* BLOGS SECTION START */
+
+.feedback .client-card .card-img{
+    width: 80%;
+    text-align: center;
+    margin:20px auto;
+    float: none;
+}
+.feedback .client-card .card-content{
+    
+    width: 80%;
+    margin: auto;
+    float: none;
+}
+/* Client's Feedback SECTION END */
+.blogs .blogs-boxes .box{
+    width: 70%;
+    background-color: white;
+    margin: 20px auto ;
+    float: none;
+}
+/* BLOGS SECTION END */
+/* CONTACTUS SECTION START */
+#name,
+#email{
+    width: 100%;
+    margin-right: 0;
+}
+/* CONTACTUS SECTION END */
+}
